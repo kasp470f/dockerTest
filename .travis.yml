@@ -1,0 +1,7 @@
+sude: required
+services:
+  - docker
+
+script:
+  - docker build -t kasp470f/node .
+  - docker images kasp470f/node
